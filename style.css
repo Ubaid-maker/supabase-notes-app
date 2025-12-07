@@ -1,0 +1,48 @@
+body {
+  background: #0f0f0f;
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.container {
+  width: 400px;
+}
+
+textarea {
+  width: 100%;
+  height: 80px;
+  padding: 10px;
+  border-radius: 8px;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #4CAF50;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.note {
+  background: #222;
+  padding: 12px;
+  border-radius: 8px;
+  margin-top: 10px;
+  position: relative;
+}
+
+.delete-btn {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+  color: red;
+}
